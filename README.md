@@ -26,13 +26,13 @@ Sample final liver.csv data using zonalSampling2D.py. All files necessary to rep
 Python3 ./zonalSampling2D.py [-h] [-q Q] [--path PATH] [--boot BOOT] [--zones ZONES] [--epsilonFile EPSILONFILE] [--cutoff CUTOFF]
 ```
 
-where\
-  -h, --help                      show this help message and exit\
-  -q Q                  quiet or verbose flag\
-  --path PATH           path to directory containing "liver.csv" file to be processed\
-  --boot BOOT           number of bootstraps\
-  --zones ZONES         number of zones to analyse\
-  --epsilonFile EPSILONFILE	file with epsilon values\
+where<br />
+  -h, --help                      show this help message and exit<br />
+  -q Q                  quiet or verbose flag<br />
+  --path PATH           path to directory containing "liver.csv" file to be processed<br />
+  --boot BOOT           number of bootstraps<br />
+  --zones ZONES         number of zones to analyse<br />
+  --epsilonFile EPSILONFILE	file with epsilon values<br />
   --cutoff CUTOFF       mutations carried by <cutoff sampled cells in a section are not counted
 
 
