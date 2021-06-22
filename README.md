@@ -1,6 +1,6 @@
 # Simulation scripts for Passman et al 2021
 
-This repository contains the simulation scripts used to simulate hepatocyte clonal expansion dynamics for Passman et al 2021. Simulations typically run in under 5 minutes. Approximate Bayesian Computation (ABC) was performed using the simulate2D.cpp and zonalSampling2D.py scripts on a HPC using the SGE system. C++ scripts were compiled using GCC v4.2.1, and python scripts were run using Python v3.8.5.
+This repository contains the scripts used to simulate hepatocyte clonal expansion dynamics for Passman et al 2021. Simulations typically run in under 5 minutes. Approximate Bayesian Computation (ABC) was performed using the simulate2D.cpp and zonalSampling2D.py scripts on a HPC using the SGE system. C++ scripts were compiled using GCC v4.2.1, and python scripts were run using Python v3.8.5.
 
 
 ## 2D simulations
