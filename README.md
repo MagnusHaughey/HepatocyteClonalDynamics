@@ -14,10 +14,10 @@ Execute a simulation by running the following command:
 ```
 
 where\
-&nbsp  -q	quiet flag\
-&nbsp  -B	beta value (sets PT proliferation rate relative to non-PT)\
-&nbsp  -N	PT cell pool size (number of cells)\
-&nbsp  -x	random seed
+&nbsp;  -q	quiet flag\
+&nbsp;  -B	beta value (sets PT proliferation rate relative to non-PT)\
+&nbsp;  -N	PT cell pool size (number of cells)\
+&nbsp;  -x	random seed
 
 
 Sample final liver.csv data using zonalSampling2D.py. All files necessary to reproduce ABC results are contained within ./ABC/ directory. Run analysis using the command:
@@ -27,13 +27,13 @@ Python3 ./zonalSampling2D.py [-h] [-q Q] [--path PATH] [--boot BOOT] [--zones ZO
 ```
 
 where\
-&nbsp  -h, --help	show this help message and exit\
-&nbsp  -q Q                  quiet or verbose flag\
-&nbsp  --path PATH           path to directory containing "liver.csv" file to be processed\
-&nbsp  --boot BOOT           number of bootstraps\
-&nbsp  --zones ZONES         number of zones to analyse\
-&nbsp  --epsilonFile EPSILONFILE	file with epsilon values\
-&nbsp  --cutoff CUTOFF       mutations carried by <cutoff sampled cells in a section are not counted
+&nbsp;  -h, --help	show this help message and exit\
+&nbsp;  -q Q                  quiet or verbose flag\
+&nbsp;  --path PATH           path to directory containing "liver.csv" file to be processed\
+&nbsp;  --boot BOOT           number of bootstraps\
+&nbsp;  --zones ZONES         number of zones to analyse\
+&nbsp;  --epsilonFile EPSILONFILE	file with epsilon values\
+&nbsp;  --cutoff CUTOFF       mutations carried by <cutoff sampled cells in a section are not counted
 
 
 ## 1D simulations
@@ -45,10 +45,10 @@ Execute 1D simulations using the command:
 ```
 
 where\
-&nbsp  -R	0 or 1 to select slow or rapid expansion respectively (see supplementary methods for further details)\
-&nbsp  -S	0 or 1 to select quiescent or streaming (conveyor belt) phase 2 dynamics\
-&nbsp  -T	duration of phase 2 in days\
-&nbsp  -x	random seed
+&nbsp;  -R	0 or 1 to select slow or rapid expansion respectively (see supplementary methods for further details)\
+&nbsp;  -S	0 or 1 to select quiescent or streaming (conveyor belt) phase 2 dynamics\
+&nbsp;  -T	duration of phase 2 in days\
+&nbsp;  -x	random seed
 
 
 
