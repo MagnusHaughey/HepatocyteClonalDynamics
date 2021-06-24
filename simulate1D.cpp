@@ -27,7 +27,7 @@ using namespace std;
 
 
 // Define poisson distributions
-double mu = 0.00084;			// Based on mtDNA mutation rate of 1.05e-7 per site per generation (Konrad, A. et al., Mol. Biol. Evol. 34(6)). mtDNA genome length = 1.6e4 -> mtDNA mutation rate approx. 1.05e-7 * 1.6e4 = 0.00168 mutations per mtDNA division. Assume mtDNA copy number = N and mtDNA segregated equally during cell division. Then N/2 mtDNA divisions per cell division to replenish mtDNA copy number of N. Each new mtDNA mutation will fixate with probability p=1/N (neutral evolution assumption). Then, number of new mutations per cell division is 0.00168 * N/2 * 1/N = 0.00084.
+double mu = 0.0008;			// Assumed mtDNA mutation rate of 1e-7 per site per mtDNA division. mtDNA genome length = 1.6e4 -> mtDNA mutation rate approx. 1e-7 * 1.6e4 = 0.0016 mutations per mtDNA division. Assume mtDNA copy number = N and mtDNA segregated equally during cell division. Then N/2 mtDNA divisions per cell division to replenish mtDNA copy number of N. Each new mtDNA mutation will fixate with probability p=1/N (neutral evolution assumption). Then, number of new mutations per cell division is 0.0016 * N/2 * 1/N = 0.0008.
 default_random_engine generator(mu);	// Seed random generator for poisson distribution 
 
 
