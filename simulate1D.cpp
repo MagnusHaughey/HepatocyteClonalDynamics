@@ -371,7 +371,7 @@ int main(int argc, char** argv)
 
 
 	t = 0.0;
-	maxLength = 50;
+	maxLength = 25;
 	Cell new_cell, cell_to_mutate, cell_to_divide, cell_to_die;
 
 
@@ -459,7 +459,7 @@ int main(int argc, char** argv)
 
 	// Set other rates
 	u = 5e-2;			// mito mutation rate [days^-1] (5e-5 per mtDNA per day mutltiplied by mtDNA copy number of 1000)
-	r_div_hep = 1.0/100.0;		// hepatocyte division rate [days^-1]
+	r_div_hep = 1.0/200.0;		// hepatocyte division rate [days^-1]
 	r_death_hep = 1.0/300.0;	// hepatocyte death rate [days^-1]
 
 
