@@ -23,7 +23,7 @@ where\
 Sample final liver.csv data using zonalSampling2D.py. All files necessary to reproduce ABC results are contained within ./ABC/ directory. Run analysis using the command:
 
 ```
-Python3 ./zonalSampling2D.py [-h] [-q Q] [--path PATH] [--boot BOOT] [--zones ZONES] [--epsilonFile EPSILONFILE] [--cutoff CUTOFF]
+python3 ./zonalSampling2D.py [-h] [-q Q] [--path PATH] [--boot BOOT] [--zones ZONES] [--epsilonFile EPSILONFILE] [--cutoff CUTOFF]
 ```
 
 where\
